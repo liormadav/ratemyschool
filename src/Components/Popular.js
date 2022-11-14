@@ -7,7 +7,7 @@ function Popular() {
     <div className='card'>
         <div className="bg">
           <div className="glass">
-            <h1 className='title'>Popular Schools</h1>
+            <h1 className='title'>Popular Schools</h1> 
             
           </div>
         </div>
