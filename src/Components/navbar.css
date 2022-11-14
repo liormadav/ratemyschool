@@ -1,0 +1,45 @@
+.nav{
+    background: rgba(215, 211, 211, 0.425);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+.nav__right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .btn{
+    background-color: #EEEEEE;
+} */
+
+.logo{
+    height: 40px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .nav{
+        height: 90px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .nav__right{
+        /* space from left */
+        padding-left: 10px;
+    }
+    
+}
