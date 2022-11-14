@@ -1,17 +1,16 @@
 import React from 'react';
-import "./popular.css";
+import PopularCSS from "./popular.module.css";
 
 function Popular() {
   return (
-    <div id="popular-panel">
-    <div className='card'>
-        <div className="bg">
-          <div className="glass">
-            <h1 className='title'>Popular Schools</h1> 
+    
+    <div className={PopularCSS.card}>
+        <div className={PopularCSS.parent}>
+          <div className={PopularCSS.glass}>
+            <h1 className={PopularCSS.title}>Popular Schools</h1> 
             
           </div>
         </div>
-    </div>
     </div>
   )
 }
