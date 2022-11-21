@@ -1,0 +1,51 @@
+.card{
+    height: 500px;
+    width: 400px;
+    min-width: 30%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+img{
+    height: 80%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.schoolName{
+    font-weight: 700;
+    color: #100F0F;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schoolLocation{
+    color: #100F0F;
+    margin-left: 4px;
+}
+
+.reviews{
+    color: #100F0F;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        height: 40%;
+        width: 80%;
+    }
+    .schoolName{
+        font-size: 20px;
+    }
+}
